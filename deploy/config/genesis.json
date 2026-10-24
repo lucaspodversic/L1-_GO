@@ -1,0 +1,54 @@
+{
+  "chainId": 1337,
+  "timestamp": 0,
+  "gasLimit": 30000000,
+  "baseFee": "1000000000",
+  "extraData": "0x6c312d746573746e6574",
+  "consensus": {
+    "epochLength": 1000,
+    "blockTimeMs": 500,
+    "viewTimeoutMs": 6000,
+    "maxValidators": 100,
+    "minStake": "1000000000000000000"
+  },
+  "alloc": {
+    "0x61930208973537198fBB7Ea9B9855c7900bDd6c4": {
+      "balance": "1000000000000000000000000"
+    },
+    "0x6a139bAa03e636185832A058361e4CeE3021da3d": {
+      "balance": "1000000000000000000000000"
+    },
+    "0xA8d405Bab5F8Cd56b861fBeB75a968788f53eA42": {
+      "balance": "1000000000000000000000000"
+    },
+    "0xbec9d9b3486F020DD8D5c8dCaa688f6D554709c2": {
+      "balance": "1000000000000000000000000"
+    }
+  },
+  "validators": [
+    {
+      "address": "0x61930208973537198fBB7Ea9B9855c7900bDd6c4",
+      "blsPubKey": "0x92867f9cf8e78162dc0377fbbaff1d715b27325e88b98676ac7bda86375ae0482f9ef5332abde2dff0e12771ddc9e93b",
+      "pop": "0x969d8c235afb7ad5c6c86f0740d11c37916430faa16e9bc454c2079bd251fb01d7d0ffce16eba0165fdbbe2178d6a97f0d95eb95bc9f6442e1061d9d80f358edfff682662f5be1d5cb94f44139297aad197c33db0e50a928e10b4a58d088942c",
+      "power": 1
+    },
+    {
+      "address": "0xA8d405Bab5F8Cd56b861fBeB75a968788f53eA42",
+      "blsPubKey": "0x988117b03b90fb2d70f4ce339f3f8bb2497c40dcdfcadb30e33e211478fa6b78dde9bcfa135da1aef061ddb2469d256e",
+      "pop": "0x84484aa50bbebe7136762a6cc488521688d13822b629e874d3ad77b382ada95b9dfc59e9ccb4355200e0177a187fd8df19a74b509b60ebe39bf488fbd7ac8b72cd986dd604326cce543a1b6d9575dff54f16a2fb6729dfea4e8f56fe40b55230",
+      "power": 1
+    },
+    {
+      "address": "0xbec9d9b3486F020DD8D5c8dCaa688f6D554709c2",
+      "blsPubKey": "0xa06aefc075ada755b44434957d095ca06b29412c44e8a455c9a600cdf534d6ac329e4961d96990eb17908356ee935e5f",
+      "pop": "0xafdd1a951bed74d94e38c54cf64eb744947ceb1600d262f7ce64de48cccc2c5be3a83ef65a7bbba2630d10c7c8864cd01477bc4826b314c206b8978e1720fa5add863493316fd05ae4233da3744e08ef50a2dd2e75a44a6b5d9c5f1bc13c21a8",
+      "power": 1
+    },
+    {
+      "address": "0x6a139bAa03e636185832A058361e4CeE3021da3d",
+      "blsPubKey": "0x81b19bab51d96f19d87d29213d9723c05c96f5626b54723ec5df3f81b8739bea59624c9803efc4c8ddf52374f12bee66",
+      "pop": "0x8381735d30075fca03462a7d20714207f92b2469e2e8f431da5bba5c015c31284371f63b88441ec29cee6aae62a8b05a0a12af878dd415906d194abda042a1cedb72a3178b851618ad9b0e597e523b2077eacd63991cfde5c48245cccd33b81b",
+      "power": 1
+    }
+  ]
+}
